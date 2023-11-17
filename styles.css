@@ -1,0 +1,61 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&display=swap');
+
+
+body {
+    font-family: 'Agbalumo';
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+input {
+    font-family: 'Agbalumo';
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Agbalumo';
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Agbalumo';
+}
+
+button:hover {
+    background-color:black;
+    
+    
+}
+
+#resultados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resultadoTexto {
+    font-size: 18px;
+    font-family: 'Edu TAS Beginner';
+
+}
